@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>SignUp</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: linear-gradient(to right,
+                rgb(187, 163, 236),
+                rgb(255, 255, 255));
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .login-box {
+            padding: 20px;
+            background-color: #fff; /* Background color set to white */
+            box-shadow: 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+            width: 400px; /* Increased width */
+            margin: auto;
+            border: 2px solid #000; /* Bold border */
+        }
+
+        .login-box label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .login-box input[type="text"],
+        .login-box input[type="password"] {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+
+        #loginButton {
+            width: 98%;
+            padding: 10px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        #loginButton:hover {
+            background-color: #0056b3;
+        }
+
+        .userContent {
+            display: none;
+            margin-top: 20px;
+        }
+
+        .userContent h3 {
+            font-size: 17px;
+        }
+
+        .userContent p {
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="login-box">
+        <h1>Registration</h1>
+        <form id="registrationForm">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            
+            <button type="submit" id="loginButton">Register</button>
+        </form>
+        <script src="register.js"></script>
+     </div>
+     </div>
+    </div>
+</body>
+</html> 

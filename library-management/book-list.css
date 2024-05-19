@@ -1,0 +1,74 @@
+/* Reset default margin and padding for the page */
+body, h1, h2, p, ul, li, table, th, td, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background color and font family for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style the container div */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e9aef5;
+    background: linear-gradient(to bottom, white, rgb(227, 177, 218), rgb(198, 198, 246));
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* Style table headers and cells */
+th, td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: left;
+    background-color: #d1bcd6;
+}
+
+/* Style table headers */
+th {
+    background-color: #adbbee;
+}
+
+/* Style for cart table */
+#cart-list {
+    margin-top: 10px;
+}
+
+/* Style for cart table rows */
+#cart-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#cart-list td {
+    text-align: left;
+}
+
+#cart-list td {
+    padding: 8px;
+}
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000; 
+    color: #fff; 
+    text-decoration: none; 
+    border: 1px solid #007bff; 
+    border-radius: 4px; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .custom-button:hover {
+    background-color: #043aff; /* Change background color on hover */
+  }
